@@ -1,0 +1,135 @@
+
+* {
+    font-family: 'FiraCode Nerd Font';
+    font-size: 14;
+}
+
+window#waybar {
+    background: transparent;
+}
+
+.modules-left,
+.modules-center,
+.modules-right {
+    background-color: @background;
+    border-radius: 7px;
+    border: 1.5px solid white;
+}
+
+#custom-separator {
+    padding: 0 10px;
+    color: white;
+}
+
+#custom-menu {
+    padding-left: 15px;
+    color:#65000b;
+}
+
+#cpu {
+    padding-right: 10px;
+    color: white;
+}
+
+#memory {
+    padding-right: 10px;
+    color: white;
+}
+
+#battery {
+    color: @color6;
+}
+
+#custom-wallpaper,
+#custom-vpn {
+    color: @color8
+}
+
+#tray {
+    color: white;
+    padding-right: 15px;
+}
+
+#tray menu {
+    background-color: green;
+    color: white;
+}
+
+#tray menu :disabled {
+    color: @color1;
+}
+
+#tray menu :hover {
+    background-color: brown;
+    color: white;
+}
+
+tooltip {
+    background-color: blue;
+    border-color: white;
+}
+
+tooltip label {
+    color: red;
+}
+
+.modules-center {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+#workspaces button {
+    all: unset;
+    padding: 10px;
+    color: #7c4848;
+}
+
+#workspaces button.empty {
+    color: red;
+}
+
+#workspaces button.active {
+    color: #701c1c;
+}
+
+
+.modules-right {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+#custom-spotify {
+    color: white;
+}
+
+#pulseaudio {
+    color: white;
+}
+
+#pulseaudio-slider slider {
+    min-height: 0px;
+    min-width: 0px;
+    opacity: 0;
+    background-image: none;
+    border: none;
+    box-shadow: none;
+}
+
+#pulseaudio-slider trough {
+    min-height: 5px;
+    min-width: 70px;
+    border-radius: 5px;
+    border: 0px solid;
+    background-color:#72a0c1;
+}
+
+#pulseaudio-slider highlight {
+    all: unset;
+    border-radius: 5px;
+    border: 0px solid;
+    background-color:#436b95;
+}
+
+#clock {
+    color: white;
+}
